@@ -1,8 +1,7 @@
 # Drive Horizon
 
-An in-cab navigation screen for Euro Truck Simulator 2 and American Truck
-Simulator. It reads the SCS telemetry shared memory, and in ETS2 it draws
-itself on the truck's GPS.
+An in-cab navigation screen for Euro Truck Simulator 2. It reads the SCS
+telemetry shared memory and draws itself on the truck's GPS.
 
 ## Projects
 
@@ -18,5 +17,5 @@ Drive Horizon is under the MIT License.
 ## Not affiliated
 
 Drive Horizon is an independent project, not affiliated with, endorsed by or
-sponsored by Google, Apple or SCS Software. Android Auto, CarPlay, Euro Truck
-Simulator 2 and American Truck Simulator are trademarks of their owners.
+sponsored by Google, Apple or SCS Software. Android Auto, CarPlay and Euro
+Truck Simulator 2 are trademarks of their owners.
