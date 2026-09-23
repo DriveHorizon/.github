@@ -1,21 +1,24 @@
 # Drive Horizon
 
-An in-cab navigation screen for Euro Truck Simulator 2. It reads the SCS
-telemetry shared memory and draws itself on the truck's GPS.
+Drive Horizon is an in-cab navigation screen for Euro Truck Simulator 2.
+It reads the game's telemetry and draws a map, route guidance, media
+controls and truck gauges. It offers two interfaces: Panorama, in the
+style of Android Auto, and Mosaic, in the style of Apple CarPlay. It
+runs in its own window or on the truck's GPS screen in the cab.
 
-## Projects
+Drive Horizon is free to download and use. Its source code is
+proprietary and private.
 
-| Repository | What it holds |
-| --- | --- |
-| `drive-horizon` | The application. |
-| `website` | The website. |
+## Repositories
 
-## License
+| Repository | Content |
+|---|---|
+| `drive-horizon` | The Windows app |
+| `website` | The website |
+| `.github` | This profile and the files shared by all repositories |
 
-Drive Horizon is under the MIT License.
+## Trademarks
 
-## Not affiliated
-
-Drive Horizon is an independent project, not affiliated with, endorsed by or
-sponsored by Google, Apple or SCS Software. Android Auto, CarPlay and Euro
-Truck Simulator 2 are trademarks of their owners.
+Drive Horizon is an independent project. It is not affiliated with,
+endorsed by or sponsored by Google, Apple or SCS Software. Android Auto,
+CarPlay and Euro Truck Simulator 2 are trademarks of their owners.

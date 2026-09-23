@@ -1,23 +1,26 @@
 # Security policy
 
-## Reporting a vulnerability
+## Report a vulnerability
 
-Report privately. Do not open a public issue that describes an exploitable
-problem.
+Report a vulnerability privately, through a
+[private security advisory](https://github.com/DriveHorizon/.github/security/advisories/new).
+Only the maintainers can read it. Never describe an exploitable problem
+in a public issue.
 
-1. Open the **Security** tab of the repository concerned.
-2. Choose **Report a vulnerability**.
-3. Give the problem, the steps that reproduce it, and the build you ran.
+Include:
 
-If that button is not offered, open a public issue that asks a maintainer for a
-private channel, and put no technical detail in it.
+- the problem and what an attacker can do with it;
+- the steps that reproduce it;
+- the version of Drive Horizon, or the address of the page on the
+  website.
 
 ## Scope
 
-Drive Horizon is an offline application for Windows. The display plugin loads
-into the game process, and the parsers read telemetry and map files.
+- **The app.** Drive Horizon runs offline on Windows. Its display
+  plugin loads into the game process. Its parsers read the game's
+  telemetry and map files.
+- **The website.** The public pages and the server that renders them.
 
 ## Supported versions
 
-Drive Horizon has no released version yet. Only the current `main` receives
-fixes.
+Only the latest release receives security fixes.
