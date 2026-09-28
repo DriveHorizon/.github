@@ -4,10 +4,17 @@
   "extends": ["config:recommended", "helpers:pinGitHubActionDigests"],
   "minimumReleaseAge": "5 days",
   "osvVulnerabilityAlerts": true,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "semanticCommits": "enabled",
   "automergeType": "pr",
   "automergeStrategy": "squash",
   "platformAutomerge": false,
+  "lockFileMaintenance": {
+    "semanticCommitType": "build",
+    "semanticCommitScope": null,
+    "automerge": true
+  },
   "packageRules": [
     {
       "matchPackageNames": ["*"],
@@ -17,6 +24,10 @@
     {
       "matchDatasources": ["git-refs", "github-runners"],
       "minimumReleaseAge": null
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "automerge": true
     },
     {
       "matchManagers": ["github-actions"],
