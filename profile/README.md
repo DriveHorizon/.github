@@ -14,9 +14,12 @@ proprietary and private.
 
 | Repository | Content |
 |---|---|
-| `drive-horizon` | The Windows app |
-| `website` | The website |
-| `.github` | This profile and the files shared by all repositories |
+| [`drive-horizon`](https://github.com/DriveHorizon/drive-horizon) | The Windows app |
+| [`website`](https://github.com/DriveHorizon/website) | The website |
+| [`.github`](https://github.com/DriveHorizon/.github) | This profile and the files that all repositories share: the pull request template, the issue templates, the security policy, the code of conduct and the Renovate rules |
+
+To report a vulnerability, follow the
+[security policy](https://github.com/DriveHorizon/.github/blob/main/SECURITY.md).
 
 ## Trademarks
 
