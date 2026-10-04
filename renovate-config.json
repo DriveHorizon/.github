@@ -1,15 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Renovate rules shared by the Drive Horizon repositories",
-  "extends": ["config:recommended", "helpers:pinGitHubActionDigests"],
+  "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":configMigration"],
   "minimumReleaseAge": "5 days",
+  "internalChecksFilter": "strict",
   "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "abandonmentThreshold": "2 years",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "semanticCommits": "enabled",
+  "automerge": true,
   "automergeType": "pr",
   "automergeStrategy": "squash",
   "platformAutomerge": false,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": true
+  },
   "lockFileMaintenance": {
     "semanticCommitType": "build",
     "semanticCommitScope": null,
@@ -22,17 +30,18 @@
       "semanticCommitScope": null
     },
     {
+      "description": "A major release waits longer, because its first patches often follow within two weeks",
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "14 days",
+      "addLabels": ["major"]
+    },
+    {
       "matchDatasources": ["git-refs", "github-runners"],
       "minimumReleaseAge": null
     },
     {
-      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
-      "automerge": true
-    },
-    {
       "matchManagers": ["github-actions"],
-      "semanticCommitType": "ci",
-      "automerge": true
+      "semanticCommitType": "ci"
     }
   ]
 }
