@@ -32,7 +32,8 @@
     {
       "description": "A major release waits longer, because its first patches often follow within two weeks",
       "matchUpdateTypes": ["major"],
-      "minimumReleaseAge": "14 days"
+      "minimumReleaseAge": "14 days",
+      "addLabels": ["major"]
     },
     {
       "matchDatasources": ["git-refs", "github-runners"],
