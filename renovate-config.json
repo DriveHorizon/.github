@@ -1,7 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Renovate rules shared by the Drive Horizon repositories",
-  "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":configMigration"],
+  "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":configMigration", "group:allNonMajor"],
+  "timezone": "Europe/Paris",
+  "schedule": ["* 0-5 * * 1"],
+  "rebaseWhen": "conflicted",
   "minimumReleaseAge": "5 days",
   "internalChecksFilter": "strict",
   "osvVulnerabilityAlerts": true,
