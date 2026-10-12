@@ -23,6 +23,11 @@ one folder that is not a repository.
    the file.
 3. If the task touches several repositories, read the rules of each one
    before the first change. The rules differ.
+4. Before the first text that you write, read every skill that the Write
+   section of that `AGENTS.md` names for that kind of text. The help of
+   the website needs `writing-user-docs` besides the skills of the app.
+   When you give a text to another agent to write, name those skills in
+   your instructions.
 
 This repository has no `CONTRIBUTING.md` of its own. Follow
 `drive-horizon/CONTRIBUTING.md` for branches, commits and pull requests,
