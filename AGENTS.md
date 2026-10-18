@@ -58,5 +58,15 @@ workspace. Remove it after the merge.
 - Never edit `CODE_OF_CONDUCT.md`. It is the Contributor Covenant text.
 - Write documents and commits in English. Write to the user in their
   language.
-- A change here reaches both repositories, so merge a pull request only
-  when the user asks you to in the current conversation.
+- This repository has no hooks, so a push here runs no check. Check the
+  links and the commit subject by hand before you push.
+- A change here reaches both repositories. In this repository the agent
+  merges a pull request only when the user asks you to in the current
+  conversation, whatever the Merge rules of `drive-horizon/CONTRIBUTING.md`
+  allow.
+
+## Write
+
+Read `technical-writing` and `unslop` before the first text that you write
+here. Both skills live in `.agents/skills/` of `drive-horizon` and
+`website`, and the two copies are the same.
