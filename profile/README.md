@@ -2,13 +2,12 @@
 
 Drive Horizon is an in-cab navigation screen for Euro Truck Simulator 2
 and American Truck Simulator. It reads the games' telemetry and draws a
-map, route guidance, media controls and truck gauges. It offers two
+map, route guidance, and apps such as Music and Gauges. It offers two
 interfaces: Panorama, in the style of Android Auto, and Mosaic, in the
-style of Apple CarPlay. It runs in its own window or on the truck's GPS
-screen in the cab.
+style of Apple CarPlay. The game plugin also draws the app on the GPS
+screen of the truck, in both games.
 
-Drive Horizon is free to download and use. Its source code is
-proprietary and private.
+Drive Horizon is proprietary software, free to download and use.
 
 ## Repositories
 
