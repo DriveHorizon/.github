@@ -23,7 +23,6 @@ To report a vulnerability, follow the
 
 ## Trademarks
 
-Drive Horizon is an independent project. It is not affiliated with,
-endorsed by or sponsored by Google, Apple or SCS Software. Android Auto,
-CarPlay, Euro Truck Simulator 2 and American Truck Simulator are
-trademarks of their owners.
+Drive Horizon is an independent project, not affiliated with SCS
+Software, Google, Apple, TruckersMP, Valve or Microsoft. All trademarks
+belong to their owners.

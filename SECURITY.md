@@ -16,7 +16,8 @@ Include the following.
 
 ## Scope
 
-- **The app.** Drive Horizon runs offline on Windows. Its truck screen
+- **The app.** Drive Horizon runs on Windows. It connects to the network
+  to check for updates and to show multiplayer traffic. Its truck screen
   plugin loads into the game process. Its parsers read the game's
   telemetry and map files.
 - **The website.** The public pages and the server that renders them.
