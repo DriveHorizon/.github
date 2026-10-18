@@ -2,8 +2,8 @@
 
 ## Report a vulnerability
 
-Report a vulnerability privately, through a
-[private security advisory](https://github.com/DriveHorizon/.github/security/advisories/new).
+Report a vulnerability in the app or in the website privately, through the
+same [private security advisory](https://github.com/DriveHorizon/.github/security/advisories/new).
 Only the maintainers can read it. Never describe an exploitable problem
 in a public issue.
 
@@ -24,4 +24,5 @@ Include the following.
 
 ## Supported versions
 
-Only the latest release receives security fixes.
+The app supports its latest release. The website supports what is
+deployed from `main`.
