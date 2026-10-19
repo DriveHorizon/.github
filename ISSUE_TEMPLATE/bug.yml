@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: What happens
-      description: What you saw, and what you expected instead. Add a capture or a video if you can.
+      description: What you saw, and what you expected instead. Add a screenshot or a video if you can.
     validations:
       required: true
   - type: textarea
@@ -31,7 +31,8 @@ body:
     attributes:
       label: Context
       description: >
-        For the app, the game version, the interface (Panorama or Mosaic)
-        and the log. For the website, the page address, the browser and
-        the screen width.
+        For the app, give the game version. Say whether you use Panorama
+        or Mosaic. Paste the app log from the logs folder in
+        `%APPDATA%\Drive Horizon\`. For the website, give the page address,
+        the browser and the screen width.
       render: text
