@@ -19,8 +19,7 @@
   "platformAutomerge": false,
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "minimumReleaseAge": null,
-    "automerge": true
+    "minimumReleaseAge": null
   },
   "lockFileMaintenance": {
     "semanticCommitType": "build",
