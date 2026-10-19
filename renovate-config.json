@@ -19,7 +19,7 @@
   "platformAutomerge": false,
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "automerge": true
+    "minimumReleaseAge": null
   },
   "lockFileMaintenance": {
     "semanticCommitType": "build",
@@ -39,8 +39,10 @@
       "addLabels": ["major"]
     },
     {
+      "description": "Renovate cannot date a git commit or a runner image, so a person ticks each update in the Dependency Dashboard",
       "matchDatasources": ["git-refs", "github-runners"],
-      "minimumReleaseAge": null
+      "minimumReleaseAge": null,
+      "dependencyDashboardApproval": true
     },
     {
       "matchManagers": ["github-actions"],

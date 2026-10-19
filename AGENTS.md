@@ -58,8 +58,10 @@ workspace. Remove it after the merge.
 - Never edit `CODE_OF_CONDUCT.md`. It is the Contributor Covenant text.
 - Write documents and commits in English. Write to the user in their
   language.
-- This repository has no hooks, so a push here runs no check. Check the
-  links and the commit subject by hand before you push.
+- This repository has no hooks. Its workflow `validate.yml` checks
+  `renovate-config.json` on each pull request and each push to `main`, and
+  nothing else. Check the links and the commit subject by hand before you
+  push.
 - A change here reaches both repositories. In this repository the agent
   merges a pull request only when the user asks you to in the current
   conversation, whatever the Merge rules of `drive-horizon/CONTRIBUTING.md`
