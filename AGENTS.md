@@ -46,8 +46,8 @@ workspace. Remove it after the merge.
 ## Change this repository
 
 - Before you change the pull request template, the issue templates or
-  `renovate-config.json`, read the `CONTRIBUTING.md` of both
-  repositories. Keep the template in line with their "Write the
+  `renovate-config.json`, read the `CONTRIBUTING.md` of `drive-horizon`
+  and of `website`. Keep the template in line with their "Write the
   description" section.
 - The sections "Branches and pull requests" and "Commit messages" of
   `CONTRIBUTING.md` exist in both repositories, because an agent reads the
