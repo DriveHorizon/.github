@@ -2,10 +2,10 @@
 
 ## Report a vulnerability
 
-Report a vulnerability in the app or in the website privately, through the
-same [private security advisory](https://github.com/DriveHorizon/.github/security/advisories/new).
-Only the maintainers can read it. Never describe an exploitable problem
-in a public issue.
+Report a vulnerability in the app or in the website privately, through
+the [private security advisory](https://github.com/DriveHorizon/.github/security/advisories/new)
+of the `.github` repository. Only the maintainers can read it. Never
+describe an exploitable problem in a public issue.
 
 Include the following.
 
