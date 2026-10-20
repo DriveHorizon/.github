@@ -3,7 +3,7 @@
   "description": "Renovate rules shared by the Drive Horizon repositories",
   "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":configMigration", "group:allNonMajor"],
   "timezone": "Europe/Paris",
-  "schedule": ["* 0-5 * * 1"],
+  "schedule": ["* 0-5 1-7 * 1"],
   "rebaseWhen": "conflicted",
   "minimumReleaseAge": "5 days",
   "internalChecksFilter": "strict",
@@ -24,7 +24,8 @@
   "lockFileMaintenance": {
     "semanticCommitType": "build",
     "semanticCommitScope": null,
-    "automerge": true
+    "automerge": true,
+    "schedule": ["* 0-5 1-7 * 1"]
   },
   "packageRules": [
     {
