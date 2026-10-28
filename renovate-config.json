@@ -1,0 +1,53 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate rules shared by the Drive Horizon repositories",
+  "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":configMigration", "group:allNonMajor"],
+  "timezone": "Europe/Paris",
+  "schedule": ["* 0-5 1 * *"],
+  "rebaseWhen": "conflicted",
+  "minimumReleaseAge": "5 days",
+  "internalChecksFilter": "strict",
+  "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "abandonmentThreshold": "2 years",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "semanticCommits": "enabled",
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "platformAutomerge": false,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "minimumReleaseAge": null
+  },
+  "lockFileMaintenance": {
+    "semanticCommitType": "build",
+    "semanticCommitScope": null,
+    "automerge": true,
+    "schedule": ["* 0-5 1 * *"]
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "semanticCommitType": "build",
+      "semanticCommitScope": null
+    },
+    {
+      "description": "A major release waits longer, because its first patches often follow within two weeks",
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "14 days",
+      "addLabels": ["major"]
+    },
+    {
+      "description": "Renovate cannot date a git commit or a runner image, so a person ticks each update in the Dependency Dashboard",
+      "matchDatasources": ["git-refs", "github-runners"],
+      "minimumReleaseAge": null,
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "semanticCommitType": "ci"
+    }
+  ]
+}
