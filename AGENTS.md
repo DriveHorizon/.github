@@ -3,13 +3,8 @@
 This repository holds what every Drive Horizon repository shares: the
 organization profile, the pull request and issue templates, the Renovate
 rules, the security policy and the code of conduct. A change here reaches
-`drive-horizon` and `website` at once.
-
-| Folder in the workspace | Repository | Content |
-|---|---|---|
-| `drive-horizon/` | `DriveHorizon/drive-horizon` | The Windows app |
-| `website/` | `DriveHorizon/website` | The website |
-| `.github/` | `DriveHorizon/.github` | This repository |
+`drive-horizon` and `website` at once. Their repositories sit beside this one
+in the workspace folder, which its own `AGENTS.md` describes.
 
 - Before you change a repository, read its `AGENTS.md` and
   `CONTRIBUTING.md`. This repository follows those of `drive-horizon` for
