@@ -21,7 +21,9 @@
     "labels": ["security"],
     "minimumReleaseAge": null
   },
+  "postUpdateOptions": ["pnpmDedupe"],
   "lockFileMaintenance": {
+    "enabled": true,
     "semanticCommitType": "build",
     "semanticCommitScope": null,
     "automerge": true,

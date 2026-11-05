@@ -2,8 +2,10 @@ name: Validate
 
 on:
   pull_request:
+    paths: [renovate-config.json, .github/workflows/validate.yml]
   push:
     branches: [main]
+    paths: [renovate-config.json, .github/workflows/validate.yml]
 
 permissions:
   contents: read
