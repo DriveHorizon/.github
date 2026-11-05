@@ -9,6 +9,7 @@ rules, the security policy and the code of conduct. A change here reaches
 |---|---|---|
 | `drive-horizon/` | `DriveHorizon/drive-horizon` | The Windows app |
 | `website/` | `DriveHorizon/website` | The website |
+| `references/` | `DriveHorizon/references` | The design references of Google and Apple |
 | `.github/` | `DriveHorizon/.github` | This repository |
 
 - Before you change a repository, read its `AGENTS.md` and
