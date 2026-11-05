@@ -22,7 +22,8 @@ rules, the security policy and the code of conduct. A change here reaches
   both repositories together.
 - Keep `profile/README.md` to what the app is, the repositories and the
   security policy.
-- Only `validate.yml` runs here, on `renovate-config.json`. Check links
-  and the commit subject by hand.
+- Only `validate.yml` runs here, and only when a pull request changes
+  `renovate-config.json` or `validate.yml`. Check links and the commit
+  subject by hand.
 - Merge a pull request here only when the owner asks in the conversation.
 - Write in English.
