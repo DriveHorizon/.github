@@ -1,4 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>DriveHorizon/.github:renovate-config"]
+  "extends": ["github>DriveHorizon/.github:renovate-config"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "The Renovate release that validates the shared preset",
+      "managerFilePatterns": ["/^\\.github/workflows/validate\\.yml$/"],
+      "matchStrings": ["--package renovate@(?<currentValue>[0-9.]+)"],
+      "depNameTemplate": "renovate",
+      "datasourceTemplate": "npm"
+    }
+  ]
 }
