@@ -12,12 +12,14 @@ permissions:
 
 jobs:
   renovate-config:
-    name: Renovate preset is valid
+    name: Renovate preset
     runs-on: ubuntu-26.04
     timeout-minutes: 5
     steps:
-      - name: Check out the repository
+      - name: Check out
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
-      - name: Validate renovate-config.json
+      - name: renovate-config-validator
         run: npx --yes --package renovate@44.132.5 -- renovate-config-validator --strict --no-global renovate-config.json
