@@ -5,6 +5,7 @@ Simulator. Proprietary, free to download and use.
 
 - [`drive-horizon`](https://github.com/DriveHorizon/drive-horizon): the Windows app
 - [`website`](https://github.com/DriveHorizon/website): the website
+- [`references`](https://github.com/DriveHorizon/references): the Android Auto and CarPlay design guidelines
 - [`.github`](https://github.com/DriveHorizon/.github): the files every repository shares
 
 Report a vulnerability through the [security
