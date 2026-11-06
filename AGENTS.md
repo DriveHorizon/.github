@@ -12,9 +12,9 @@ in the workspace folder, which its own `AGENTS.md` describes.
 - For a change across repositories, open one pull request per repository
   and link them. Merge the app first: the website states only what is on
   `main` of the app.
-- Keep the pull request template in line with the "Branches and pull requests"
-  section of both `CONTRIBUTING.md` files, and change that section in
-  both repositories together.
+- Keep the pull request template in line with the "Pull requests" section
+  of both `CONTRIBUTING.md` files, and change that section in both
+  repositories together.
 - Keep `profile/README.md` to what the app is, the repositories and the
   security policy.
 - Only `validate.yml` runs here, and only when a pull request changes
