@@ -33,6 +33,6 @@ body:
       description: >
         For the app, give the game version. Say whether you use Panorama
         or Mosaic. Paste `drive-horizon.log` from
-        `%LOCALAPPDATA%\com.drivehorizon.app\logs`. For the website, give
+        `%LOCALAPPDATA%\app.drivehorizon.desktop\logs`. For the website, give
         the page address, the browser and the screen width.
       render: text
