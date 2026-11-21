@@ -1,24 +1,13 @@
 # Agent instructions
 
-This repository holds what every Drive Horizon repository shares: the
-organization profile, the pull request and issue templates, the Renovate
-rules, the security policy and the code of conduct. A change here reaches
-`drive-horizon` and `website` at once. Their repositories sit beside this one
-in the workspace folder, which its own `AGENTS.md` describes.
+This repository holds what every Drive Horizon repository shares: the organization profile, the pull request and issue
+templates, the Renovate preset, the security policy and the code of conduct. A change here reaches `drive-horizon` and
+`website` at once.
 
-- Before you change a repository, read its `AGENTS.md` and
-  `CONTRIBUTING.md`. This repository follows those of `drive-horizon` for
-  the order of work, branches, commits and pull requests.
-- For a change across repositories, open one pull request per repository
-  and link them. Merge the app first: the website states only what is on
-  `main` of the app.
-- Keep the pull request template in line with the "Pull requests" section
-  of both `CONTRIBUTING.md` files, and change that section in both
-  repositories together.
-- Keep `profile/README.md` to what the app is, the repositories and the
-  security policy.
-- Only `validate.yml` runs here, and only when a pull request changes
-  `renovate-config.json` or `validate.yml`. Check links and the commit
-  subject by hand.
-- Merge a pull request here only when the owner asks in the conversation.
+- Ship a change as `../drive-horizon/CONTRIBUTING.md` says, but merge it only when the owner asks.
+- For a change across repositories, open one pull request per repository, link them, and merge the app first. The
+  website states only what is on `main` of the app.
+- Change `pull_request_template.md` and the "Ship a change" section of both `CONTRIBUTING.md` files together.
+- Keep `profile/README.md` to what the app is, the repositories and the security policy.
+- `validate.yml` checks `renovate-config.json`. Check the links and the title by hand.
 - Write in English.
